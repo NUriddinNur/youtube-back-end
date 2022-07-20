@@ -2,14 +2,13 @@
 
 const GET = (req, res, next) => {
     try {
-
         let videos = req.readFile('videos') || []
         let users = req.readFile('users') || []
 
         if(req.query.search) {
             videos = videos.filter(video => video.videoTitle.toLowerCase().includes(req.query.search.toLowerCase().trim()) )
-        }
 
+        }
 
         if(req.query.userId) {
             videos = videos.filter(video => video.userId == req.query.userId)

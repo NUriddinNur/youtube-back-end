@@ -68,4 +68,4 @@ app.use((error, req, res, next) => {
     })
 })
 
-app.listen(PORT, () => console.log('server is ready at http://192.168.0.106:' + PORT))
+app.listen(PORT, () => console.log('server is ready at http://localhost:' + PORT))

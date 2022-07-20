@@ -1,32 +1,14 @@
 [
     {
         "username": "Alo",
-        "password": "b560920bcb3d415bdad6627753bab059e139cab3c8146194d234efb7b3f5197e",
+        "password": "9a9014cca5bb234cf1520611d52edb29f516ddbde5165819f1cfa3c6011f03c3",
         "userId": 1,
-        "profilImg": "/images/1649392512566blog-post-3.jpg"
+        "profilImg": "/images/1657174837760avatar.jpg"
     },
     {
-        "username": "tesla",
-        "password": "b560920bcb3d415bdad6627753bab059e139cab3c8146194d234efb7b3f5197e",
+        "username": "Alloma",
+        "password": "9a9014cca5bb234cf1520611d52edb29f516ddbde5165819f1cfa3c6011f03c3",
         "userId": 2,
-        "profilImg": "/images/1649392921334blog-post-2.jpg"
-    },
-    {
-        "username": "donishmand",
-        "password": "ee2b3b4adcd40dccf0feb2f4d76a1ab8036de2f5fd3b0e0b9449cc5727bc120f",
-        "userId": 3,
-        "profilImg": "/images/image.png"
-    },
-    {
-        "username": "dust2",
-        "password": "b560920bcb3d415bdad6627753bab059e139cab3c8146194d234efb7b3f5197e",
-        "userId": 4,
-        "profilImg": "/images/1649394036643favicon.png"
-    },
-    {
-        "username": "tesla1",
-        "password": "b560920bcb3d415bdad6627753bab059e139cab3c8146194d234efb7b3f5197e",
-        "userId": 5,
-        "profilImg": "/images/1649440271861resume.jpg"
+        "profilImg": "/images/1657174929370home-bg1.jpg"
     }
 ]

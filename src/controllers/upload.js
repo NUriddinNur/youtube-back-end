@@ -117,7 +117,6 @@ const DELETE = (req, res, next) => {
 const DOWNLOAD = (req, res, next) => {
 	try {
 		const { videoPath } = req.query
-		console.log(videoPath);
 		res.download( path.join(__dirname, '../', 'files', videoPath) )
 	} catch(error) {
 		return next(error)
@@ -125,7 +124,21 @@ const DOWNLOAD = (req, res, next) => {
 }
 
 const PUT = (req, res) => {
-	let { data, videoId }= req.body
+	let { title, videoId }= req.body
+
+	if(title[0]) {
+		const videos = req.readFile('videos')
+
+		videos.map(video => {
+			console.log(title)
+			if(video.videoId == videoId) {
+				video.videoTitle = title
+			}
+		})
+
+		return req.writeFile('videos', videos)
+	}
+
 }
 
 
